@@ -2,7 +2,7 @@
 
 Persönliche Portfolio-Website von Ehsan Tabatabaei: IT-Betrieb, Softwareentwicklung und Machine Learning.
 
-Live: https://ehsantba.github.io/ehsan-tabatabaei/
+Live: https://ehsantba.github.io/Ehsan-Tabatabaei/
 
 ## Merkmale
 
