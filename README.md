@@ -1,16 +1,15 @@
 # Ehsan Tabatabaei – Portfolio
 
-Persönliche Portfolio-Website von Ehsan Tabatabaei: IT-Betrieb, Softwareentwicklung und Machine Learning.
+Meine persönliche Website mit Lebenslauf, Projekten und Kontakt: https://ehsantba.github.io/Ehsan-Tabatabaei/
 
-Live: https://ehsantba.github.io/Ehsan-Tabatabaei/
+Die Seite ist bewusst einfach gehalten: reines HTML, CSS und JavaScript, ohne Build-Schritt und ohne Frameworks.
 
-## Merkmale
+## Was drin ist
 
-- Statische Seite (HTML, CSS, JavaScript) – kein Build-Schritt nötig
-- Zweisprachig (Deutsch / Englisch) mit Umschalter
-- Dunkles und helles Farbschema
-- Responsives Layout, Tastaturbedienung, `prefers-reduced-motion` wird respektiert
-- Schriften lokal eingebunden (keine Verbindung zu externen Servern)
+- Deutsch und Englisch, umschaltbar
+- Heller und dunkler Modus
+- Funktioniert auf Handy und Desktop, per Tastatur bedienbar
+- Schriften liegen im Repo, es werden keine externen Server angesprochen
 
 ## Lokal ansehen
 
@@ -18,18 +17,14 @@ Live: https://ehsantba.github.io/Ehsan-Tabatabaei/
 python3 -m http.server 8000
 ```
 
-Danach `http://localhost:8000` öffnen.
+Danach `http://localhost:8000` im Browser öffnen.
 
-## Struktur
+## Ordner
 
 ```
-index.html          Inhalt
-assets/css/         Styles
-assets/js/          Interaktionen (Hero-Netz, Timeline, Sprache, Theme)
-assets/img/         Foto, Favicon, Social-Preview
-assets/fonts/       Instrument Serif, Geist, JetBrains Mono
+index.html        der Inhalt
+assets/css        Styles
+assets/js         Skripte (Hintergrund im Hero, Timeline, Sprache, Farbschema)
+assets/img        Foto, Favicon, Vorschaubild
+assets/fonts      Instrument Serif, Geist, JetBrains Mono (SIL Open Font License 1.1)
 ```
-
-## Lizenzen der Schriften
-
-Instrument Serif, Geist und JetBrains Mono stehen unter der SIL Open Font License 1.1.
