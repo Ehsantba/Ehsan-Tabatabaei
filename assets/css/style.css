@@ -242,6 +242,8 @@ em { font-family: var(--serif); font-style: italic; font-weight: 400; }
 .stack { margin-top: 26px; }
 .stack li, .tags li { padding: 6px 13px; font: 500 12.5px var(--mono); border: 1px solid var(--line-2); border-radius: 999px; color: var(--text); background: transparent; transition: background .2s, border-color .2s, transform .2s; }
 .stack li:hover, .tags li:hover { background: var(--glow); border-color: var(--blue); transform: translateY(-2px); }
+.p-foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 14px 20px; margin-top: 22px; padding-top: 20px; border-top: 1px solid var(--line); }
+.p-facts { margin: 0; color: var(--muted); font-size: .92rem; max-width: 60ch; }
 .more { margin-top: 36px; color: var(--muted); display: flex; gap: 10px 14px; flex-wrap: wrap; align-items: center; }
 .more a { display: inline-flex; align-items: center; gap: 6px; color: var(--text); font-weight: 600; border-bottom: 1px solid var(--amber); padding-bottom: 1px; }
 
